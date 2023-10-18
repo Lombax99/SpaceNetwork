@@ -1,6 +1,5 @@
 
 ```
-
 config file:
 	/etc/dtnme_deamon.cfg
 	
