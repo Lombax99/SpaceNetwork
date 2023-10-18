@@ -24,12 +24,11 @@ dtnperf tool:
 	cd ion
 	sudo dtnme -d -o ./dtn.log -t					#attiva il demone
 	dtnperf_vDTN_vBLABLA... --monitor				#attiva il nodo come monitor
-	dtnperf_vDTN_vBLABLA... --server									#attiva il nodo come server in ascolto
+	dtnperf_vDTN_vBLABLA... --server				#attiva il nodo come server in ascolto
 	dtnperf_vDTN_vBLABLA... --client -d [destination node escluso "/dtnperf:/dest"] -D100k -P50k -R1b --monitor [monitor addr]	#-D100K is the total size of the data
-												#-P50 is the size of a single payload sent
-												#-P1b speed of bundle transmission (here 1 bundle per second)
+													#-P50 is the size of a single payload sent
+													#-P1b speed of bundle transmission (here 1 bundle per second)
 
 check active dtnme demon
 	ps -ax | grep dtnme
-	
 ```
