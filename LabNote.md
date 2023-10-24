@@ -8,7 +8,7 @@ ssh connection.
 	
 run dtme:
 	cd ion
-	sudo dtme -d -o ./dtn.log -t		#-t clear the database data, fresh start
+	sudo dtnme -d -o ./dtn.log -t		#-t clear the database data, fresh start
 	
 connect to dtnme demon (if it's running):
 	telnet localhost 5050
