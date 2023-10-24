@@ -32,3 +32,6 @@ dtnperf tool:
 check active dtnme demon
 	ps -ax | grep dtnme
 ```
+
+Link al documento dell'IEEE: https://ieeexplore.ieee.org/document/4530739
+
