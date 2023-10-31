@@ -1,0 +1,4 @@
+RX_TIME;Report_SRC;Report_TST;Report_SQN;Report_Type;Bndl_SRC;Bndl_TST;Bndl_SQN;Bndl_FO;Bndl_FL;Dlv;Ct;Rcv;Fwd;Del;Reason;CRC;
+0.0;ipn:1.12507;596031449;2;CLIENT_STOP; ; ; ; ; ; ; ; ; ; ; ;
+1.978298;ipn:2.0;596031453;1;STATUS_REPORT;ipn:1.12507;596031449;1;0;0;596031453; ; ; ; ;no additional information; ;
+7.978151;ipn:2.0;596031459;1;STATUS_REPORT;ipn:1.12507;596031448;1;0;0;596031459; ; ; ; ;no additional information; ;

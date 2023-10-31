@@ -1,0 +1,68 @@
+[2018/11/20-13:03:05] [i] rfxclock is running.
+[2018/11/20-13:03:05] [i] No congestion collapse predicted.
+[2018/11/20-13:03:05] [i] ionwarn finished.
+[2018/11/20-13:03:06] [i] No congestion collapse predicted.
+[2018/11/20-13:03:06] [i] ionwarn finished.
+[2018/11/20-13:03:07] [i] No congestion collapse predicted.
+[2018/11/20-13:03:07] [i] ionwarn finished.
+[2018/11/20-13:03:07] [i] Span to engine 1 (max BER 0.000100, max xmit segment size 1024, max recv segment size 1): xmit segment loss rate 0.559234, recv segment loss rate 0.000800, max timeouts 24.
+[2018/11/20-13:03:07] [i] Span to engine 2 (max BER 0.000100, max xmit segment size 1024, max recv segment size 1): xmit segment loss rate 0.559234, recv segment loss rate 0.000800, max timeouts 24.
+[2018/11/20-13:03:07] [i] Total max export sessions does not exceed estimate.
+[2018/11/20-13:03:07] Stopping ltpadmin.
+[2018/11/20-13:03:07] [i] ltpmeter is running.
+[2018/11/20-13:03:07] [i] udplso is running, spec=[127.0.0.1:1113], txbps=0 (0=unlimited), rengine=1.
+[2018/11/20-13:03:07] [i] ltpdeliv is running.
+[2018/11/20-13:03:07] [i] udplso is running, spec=[10.0.1.2:1113], txbps=0 (0=unlimited), rengine=2.
+[2018/11/20-13:03:07] [i] ltpclock is running.
+[2018/11/20-13:03:07] [i] ltpmeter is running.
+[2018/11/20-13:03:07] [i] udplsi is running, spec=[0.0.0.0:1113].
+[2018/11/20-13:03:08] [i] Bundle security is enabled.
+[2018/11/20-13:03:08] Stopping bpadmin.
+[2018/11/20-13:03:08] [i] dtn2adminep is running.
+[2018/11/20-13:03:08] [i] ipnfw is running.
+[2018/11/20-13:03:08] [i] ltpclo is running.
+[2018/11/20-13:03:08] [i] bptransit is running.
+[2018/11/20-13:03:08] [i] ipnadminep is running.
+[2018/11/20-13:03:08] [i] ltpclo is running.
+[2018/11/20-13:03:08] [i] ltpcli is running.
+[2018/11/20-13:03:08] [i] dtn2fw is running.
+[2018/11/20-13:03:08] [i] tcpcli is running [0.0.0.0:4556].
+[2018/11/20-13:03:08] [i] bpclock is running.
+[2018/11/20-13:03:09] [i] bpclm is running: ipn:2.0
+[2018/11/20-13:03:09] [i] bpclm is running: ipn:1.0
+[2018/11/20-13:03:09] [x] src from 1970/01/01-01:00:00 to 2018/11/20-13:03:09: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:03:09] [x] fwd from 1970/01/01-01:00:00 to 2018/11/20-13:03:09: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:03:09] [x] xmt from 1970/01/01-01:00:00 to 2018/11/20-13:03:09: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:03:09] [x] rcv from 1970/01/01-01:00:00 to 2018/11/20-13:03:09: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:03:09] [x] dlv from 1970/01/01-01:00:00 to 2018/11/20-13:03:09: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:03:09] [x] ctr from 1970/01/01-01:00:00 to 2018/11/20-13:03:09: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:03:09] [x] rfw from 1970/01/01-01:00:00 to 2018/11/20-13:03:09: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:03:09] [x] exp from 1970/01/01-01:00:00 to 2018/11/20-13:03:09: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:03:16] [i] bprecvfile is running.
+[2018/11/20-13:04:43] [i] Max report segments = 2 for red part length 45, max segment size 1024, segment loss rate 0.559234.
+[2018/11/20-13:04:43] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 9102 rpt 0. (1)
+[2018/11/20-13:04:43] at line 6164 of ltp/library/libltpP.c, Handling report. (1)
+[2018/11/20-13:04:43] at line 6181 of ltp/library/libltpP.c, [i] Got RS 12641 for checkpoint 9102; 1 claims from 0 to 45. (1)
+[2018/11/20-13:04:43] at line 2129 of ltp/library/libltpP.c, Closed export session. (1)
+[2018/11/20-13:04:43] at line 225 of ltp/library/libltpP.c, List of closed export sessions:
+[2018/11/20-13:04:43] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 1
+[2018/11/20-13:05:25] [i] Max report segments = 8 for red part length 50052, max segment size 1024, segment loss rate 0.559234.
+[2018/11/20-13:05:25] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 3079 rpt 0. (3)
+[2018/11/20-13:05:25] at line 6164 of ltp/library/libltpP.c, Handling report. (3)
+[2018/11/20-13:05:25] at line 6181 of ltp/library/libltpP.c, [i] Got RS 14634 for checkpoint 3079; 1 claims from 0 to 50052. (3)
+[2018/11/20-13:05:25] at line 2129 of ltp/library/libltpP.c, Closed export session. (3)
+[2018/11/20-13:05:25] at line 225 of ltp/library/libltpP.c, List of closed export sessions:
+[2018/11/20-13:05:25] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 3
+[2018/11/20-13:05:25] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 1
+[2018/11/20-13:05:26] [i] Max report segments = 8 for red part length 50108, max segment size 1024, segment loss rate 0.559234.
+[2018/11/20-13:05:26] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 736 rpt 0. (4)
+[2018/11/20-13:05:26] at line 6164 of ltp/library/libltpP.c, Handling report. (4)
+[2018/11/20-13:05:26] at line 6181 of ltp/library/libltpP.c, [i] Got RS 8380 for checkpoint 736; 1 claims from 0 to 50108. (4)
+[2018/11/20-13:05:26] at line 2129 of ltp/library/libltpP.c, Closed export session. (4)
+[2018/11/20-13:05:26] at line 225 of ltp/library/libltpP.c, List of closed export sessions:
+[2018/11/20-13:05:26] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 4
+[2018/11/20-13:05:26] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 3
+[2018/11/20-13:05:26] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 1
+[2018/11/20-13:06:29] at line 169 of ltp/library/libltpP.c, Forget export session: timer elapsed (1)
+[2018/11/20-13:07:11] at line 169 of ltp/library/libltpP.c, Forget export session: timer elapsed (3)
+[2018/11/20-13:07:12] at line 169 of ltp/library/libltpP.c, Forget export session: timer elapsed (4)

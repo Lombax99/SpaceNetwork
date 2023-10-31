@@ -1,0 +1,116 @@
+[2018/11/20-13:16:03] [i] No congestion collapse predicted.
+[2018/11/20-13:16:03] [i] ionwarn finished.
+[2018/11/20-13:16:03] [i] rfxclock is running.
+[2018/11/20-13:16:04] [i] No congestion collapse predicted.
+[2018/11/20-13:16:04] [i] ionwarn finished.
+[2018/11/20-13:16:05] [i] No congestion collapse predicted.
+[2018/11/20-13:16:05] [i] ionwarn finished.
+[2018/11/20-13:16:05] [i] Span to engine 1 (max BER 0.000100, max xmit segment size 1024, max recv segment size 1): xmit segment loss rate 0.559234, recv segment loss rate 0.000800, max timeouts 24.
+[2018/11/20-13:16:05] [i] Span to engine 2 (max BER 0.000100, max xmit segment size 1024, max recv segment size 1): xmit segment loss rate 0.559234, recv segment loss rate 0.000800, max timeouts 24.
+[2018/11/20-13:16:05] [i] Total max export sessions does not exceed estimate.
+[2018/11/20-13:16:05] Stopping ltpadmin.
+[2018/11/20-13:16:05] [i] udplso is running, spec=[10.0.1.2:1113], txbps=0 (0=unlimited), rengine=2.
+[2018/11/20-13:16:05] [i] udplso is running, spec=[127.0.0.1:1113], txbps=0 (0=unlimited), rengine=1.
+[2018/11/20-13:16:05] [i] ltpmeter is running.
+[2018/11/20-13:16:05] [i] ltpmeter is running.
+[2018/11/20-13:16:05] [i] ltpdeliv is running.
+[2018/11/20-13:16:05] [i] ltpclock is running.
+[2018/11/20-13:16:05] [i] udplsi is running, spec=[0.0.0.0:1113].
+[2018/11/20-13:16:06] [i] Bundle security is enabled.
+[2018/11/20-13:16:06] Stopping bpadmin.
+[2018/11/20-13:16:07] [i] ltpcli is running.
+[2018/11/20-13:16:07] [i] dtn2fw is running.
+[2018/11/20-13:16:07] [i] ipnadminep is running.
+[2018/11/20-13:16:07] [i] ltpclo is running.
+[2018/11/20-13:16:07] [i] ltpclo is running.
+[2018/11/20-13:16:07] [i] tcpcli is running [0.0.0.0:4556].
+[2018/11/20-13:16:07] [i] dtn2adminep is running.
+[2018/11/20-13:16:07] [i] bpclock is running.
+[2018/11/20-13:16:07] [i] ipnfw is running.
+[2018/11/20-13:16:07] [i] bptransit is running.
+[2018/11/20-13:16:08] [i] bpclm is running: ipn:1.0
+[2018/11/20-13:16:08] [i] bpclm is running: ipn:2.0
+[2018/11/20-13:16:08] [x] src from 1970/01/01-01:00:00 to 2018/11/20-13:16:08: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:16:08] [x] fwd from 1970/01/01-01:00:00 to 2018/11/20-13:16:08: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:16:08] [x] xmt from 1970/01/01-01:00:00 to 2018/11/20-13:16:08: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:16:08] [x] rcv from 1970/01/01-01:00:00 to 2018/11/20-13:16:08: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:16:08] [x] dlv from 1970/01/01-01:00:00 to 2018/11/20-13:16:08: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:16:08] [x] ctr from 1970/01/01-01:00:00 to 2018/11/20-13:16:08: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:16:08] [x] rfw from 1970/01/01-01:00:00 to 2018/11/20-13:16:08: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:16:08] [x] exp from 1970/01/01-01:00:00 to 2018/11/20-13:16:08: (0) 0 0 (1) 0 0 (2) 0 0 (+) 0 0
+[2018/11/20-13:16:15] [i] bprecvfile is running.
+[2018/11/20-13:17:13] [i] Max report segments = 2 for red part length 45, max segment size 1024, segment loss rate 0.559234.
+[2018/11/20-13:17:13] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 15700 rpt 0. (1)
+[2018/11/20-13:17:15] at line 6164 of ltp/library/libltpP.c, Handling report. (1)
+[2018/11/20-13:17:15] at line 6181 of ltp/library/libltpP.c, [i] Got RS 15165 for checkpoint 15700; 1 claims from 0 to 45. (1)
+[2018/11/20-13:17:15] at line 2129 of ltp/library/libltpP.c, Closed export session. (1)
+[2018/11/20-13:17:15] at line 225 of ltp/library/libltpP.c, List of closed export sessions:
+[2018/11/20-13:17:15] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 1
+[2018/11/20-13:17:29] [i] Max report segments = 8 for red part length 50052, max segment size 1024, segment loss rate 0.559234.
+[2018/11/20-13:17:29] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 8675 rpt 0. (3)
+[2018/11/20-13:17:30] [i] Max report segments = 8 for red part length 50108, max segment size 1024, segment loss rate 0.559234.
+[2018/11/20-13:17:30] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 5603 rpt 0. (4)
+[2018/11/20-13:17:32] at line 6164 of ltp/library/libltpP.c, Handling report. (4)
+[2018/11/20-13:17:32] at line 6181 of ltp/library/libltpP.c, [i] Got RS 16281 for checkpoint 5603; 6 claims from 0 to 50108. (4)
+[2018/11/20-13:17:32] at line 6623 of ltp/library/libltpP.c, Incomplete reception.  Claims: (6)
+[2018/11/20-13:17:32] at line 6644 of ltp/library/libltpP.c, -   offset 0 length 1015 (0-1015) (4)
+[2018/11/20-13:17:32] at line 6644 of ltp/library/libltpP.c, -   offset 2029 length 11154 (2029-13183) (4)
+[2018/11/20-13:17:32] at line 6115 of ltp/library/libltpP.c,       retransmitting from 1015 to 2029.
+[2018/11/20-13:17:32] at line 6644 of ltp/library/libltpP.c, -   offset 14197 length 9120 (14197-23317) (4)
+[2018/11/20-13:17:32] at line 6115 of ltp/library/libltpP.c,       retransmitting from 13183 to 14197.
+[2018/11/20-13:17:32] at line 6644 of ltp/library/libltpP.c, -   offset 24330 length 16214 (24330-40544) (4)
+[2018/11/20-13:17:32] at line 6115 of ltp/library/libltpP.c,       retransmitting from 23317 to 24330.
+[2018/11/20-13:17:32] at line 6644 of ltp/library/libltpP.c, -   offset 42572 length 6084 (42572-48656) (4)
+[2018/11/20-13:17:32] at line 6115 of ltp/library/libltpP.c,       retransmitting from 40544 to 42572.
+[2018/11/20-13:17:32] at line 6644 of ltp/library/libltpP.c, -   offset 49670 length 438 (49670-50108) (4)
+[2018/11/20-13:17:32] at line 6115 of ltp/library/libltpP.c,       retransmitting from 48656 to 49670.
+[2018/11/20-13:17:32] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 5604 rpt 16281. (4)
+[2018/11/20-13:17:33] at line 6164 of ltp/library/libltpP.c, Handling report. (4)
+[2018/11/20-13:17:33] at line 6181 of ltp/library/libltpP.c, [i] Got RS 16282 for checkpoint 5604; 2 claims from 0 to 49670. (4)
+[2018/11/20-13:17:33] at line 6623 of ltp/library/libltpP.c, Incomplete reception.  Claims: (2)
+[2018/11/20-13:17:33] at line 6644 of ltp/library/libltpP.c, -   offset 0 length 48656 (0-48656) (4)
+[2018/11/20-13:17:33] at line 6644 of ltp/library/libltpP.c, -   offset 49669 length 439 (49669-50108) (4)
+[2018/11/20-13:17:33] at line 6115 of ltp/library/libltpP.c,       retransmitting from 48656 to 49669.
+[2018/11/20-13:17:33] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 5605 rpt 16282. (4)
+[2018/11/20-13:17:33] at line 7995 of ltp/library/libltpP.c, Resending checkpoint. (3)
+[2018/11/20-13:17:34] at line 6164 of ltp/library/libltpP.c, Handling report. (4)
+[2018/11/20-13:17:34] at line 6181 of ltp/library/libltpP.c, [i] Got RS 16283 for checkpoint 5605; 1 claims from 0 to 50108. (4)
+[2018/11/20-13:17:34] at line 2129 of ltp/library/libltpP.c, Closed export session. (4)
+[2018/11/20-13:17:34] at line 225 of ltp/library/libltpP.c, List of closed export sessions:
+[2018/11/20-13:17:34] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 4
+[2018/11/20-13:17:34] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 1
+[2018/11/20-13:17:34] at line 6164 of ltp/library/libltpP.c, Handling report. (4)
+[2018/11/20-13:17:34] at line 6181 of ltp/library/libltpP.c, [i] Got RS 16281 for checkpoint 5603; 6 claims from 0 to 50108. (4)
+[2018/11/20-13:17:34] [i] Ack from closed export session: 4
+[2018/11/20-13:17:34] at line 6164 of ltp/library/libltpP.c, Handling report. (3)
+[2018/11/20-13:17:34] at line 6181 of ltp/library/libltpP.c, [i] Got RS 6718 for checkpoint 8675; 6 claims from 0 to 50052. (3)
+[2018/11/20-13:17:34] at line 6623 of ltp/library/libltpP.c, Incomplete reception.  Claims: (6)
+[2018/11/20-13:17:34] at line 6644 of ltp/library/libltpP.c, -   offset 0 length 4057 (0-4057) (3)
+[2018/11/20-13:17:34] at line 6644 of ltp/library/libltpP.c, -   offset 5071 length 7098 (5071-12169) (3)
+[2018/11/20-13:17:34] at line 6115 of ltp/library/libltpP.c,       retransmitting from 4057 to 5071.
+[2018/11/20-13:17:34] at line 6644 of ltp/library/libltpP.c, -   offset 13183 length 10134 (13183-23317) (3)
+[2018/11/20-13:17:34] at line 6115 of ltp/library/libltpP.c,       retransmitting from 12169 to 13183.
+[2018/11/20-13:17:34] at line 6644 of ltp/library/libltpP.c, -   offset 24330 length 3039 (24330-27369) (3)
+[2018/11/20-13:17:34] at line 6115 of ltp/library/libltpP.c,       retransmitting from 23317 to 24330.
+[2018/11/20-13:17:34] at line 6644 of ltp/library/libltpP.c, -   offset 28382 length 19260 (28382-47642) (3)
+[2018/11/20-13:17:34] at line 6115 of ltp/library/libltpP.c,       retransmitting from 27369 to 28382.
+[2018/11/20-13:17:34] at line 6644 of ltp/library/libltpP.c, -   offset 48656 length 1396 (48656-50052) (3)
+[2018/11/20-13:17:34] at line 6115 of ltp/library/libltpP.c,       retransmitting from 47642 to 48656.
+[2018/11/20-13:17:34] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 8676 rpt 6718. (3)
+[2018/11/20-13:17:36] at line 7995 of ltp/library/libltpP.c, Resending checkpoint. (3)
+[2018/11/20-13:17:36] at line 8022 of ltp/library/libltpP.c, Checkpoint is already acknowledged. (3)
+[2018/11/20-13:17:37] at line 7995 of ltp/library/libltpP.c, Resending checkpoint. (3)
+[2018/11/20-13:17:38] at line 6164 of ltp/library/libltpP.c, Handling report. (3)
+[2018/11/20-13:17:38] at line 6181 of ltp/library/libltpP.c, [i] Got RS 6719 for checkpoint 8676; 2 claims from 0 to 48656. (3)
+[2018/11/20-13:17:38] at line 6623 of ltp/library/libltpP.c, Incomplete reception.  Claims: (2)
+[2018/11/20-13:17:38] at line 6644 of ltp/library/libltpP.c, -   offset 0 length 27369 (0-27369) (3)
+[2018/11/20-13:17:38] at line 6644 of ltp/library/libltpP.c, -   offset 28382 length 21670 (28382-50052) (3)
+[2018/11/20-13:17:38] at line 6115 of ltp/library/libltpP.c,       retransmitting from 27369 to 28382.
+[2018/11/20-13:17:38] at line 6000 of ltp/library/libltpP.c, Sending checkpoint: ckpt 8677 rpt 6719. (3)
+[2018/11/20-13:17:39] at line 6164 of ltp/library/libltpP.c, Handling report. (3)
+[2018/11/20-13:17:39] at line 6181 of ltp/library/libltpP.c, [i] Got RS 6720 for checkpoint 8677; 1 claims from 0 to 50052. (3)
+[2018/11/20-13:17:39] at line 2129 of ltp/library/libltpP.c, Closed export session. (3)
+[2018/11/20-13:17:39] at line 225 of ltp/library/libltpP.c, List of closed export sessions:
+[2018/11/20-13:17:39] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 3
+[2018/11/20-13:17:39] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 4
+[2018/11/20-13:17:39] at line 234 of ltp/library/libltpP.c, span: 31993076 session number: 1
