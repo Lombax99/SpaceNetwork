@@ -25,11 +25,11 @@ dtnperf tool:
 	sudo dtnme -d -o ./dtn.log -t					                #attiva il demone
 	dtnperf_vDTN_vBLABLA... --monitor				                #attiva il nodo come monitor
 	dtnperf_vDTN_vBLABLA... --server [--force-eid IPM]				#attiva il nodo come server in ascolto [opz per cambiare il default e usare cgr, il server deve usare IPM]
-	dtnperf_vDTN_vBLABLA... --client -d [destination node escluso "/dtnperf:/dest"] -D100k -P50k -R1b --monitor [monitor addr] [bisogna indicare l'address del server tipo ipn:10.3 dinamicamente def]
+	dtnperf_vDTN_vBLABLA... --client -d [destination node escluso "/dtnperf:/dest"] -D100k -P50k -R1b --monitor [monitor addr] 
+													[bisogna indicare l'address del server tipo ipn:10.3 dinamicamente definito nel server al lancio per usare cgr]
 													#-D100K is the total size of the data
 													#-P50 is the size of a single payload sent
 													#-P1b speed of bundle transmission (here 1 bundle per second)
-													
 
 check active dtnme demon
 	ps -ax | grep dtnme
