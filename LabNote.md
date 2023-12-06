@@ -14,11 +14,11 @@ connect to dtnme demon (if it's running):
 	telnet localhost 5050
 	
 command while in the demon:
-	link dump							#fa vedere le connessioni
-	route dump							#fa vedere le route
-	link add [link name]						#crea un nuovo link
-	link close [link name]						#chiude un link esistente
-	link open [link name]						#apre un link chiuso
+	link dump										#fa vedere le connessioni
+	route dump										#fa vedere le route
+	link add [nomelink eg:ltvm1] [ip eg:10.0.0.1] [contatto eg:ALWAYSON] [tipo eg:tcp]	#crea un nuovo link
+	link close [nomelink eg:ltvm1]								#chiude un link esistente
+	link open [nomelink eg:ltvm1]								#apre un link chiuso
 	
 dtnperf tool:
 	cd ion
