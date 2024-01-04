@@ -2,6 +2,7 @@
 ```
 config file:
 	/etc/dtnme_deamon.cfg
+	#possono esserci domande nelle crocette riguardo questo file
 	
 ssh connection.
 	ips: student@10.0.0.11 [12, 13, 14]		pass: foobar
