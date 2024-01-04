@@ -3,6 +3,7 @@
 config file:
 	/etc/dtnme_deamon.cfg
 	#possono esserci domande nelle crocette riguardo questo file
+	#non si vede solo con "ls" (usare "ls -la")
 	
 ssh connection.
 	ips: student@10.0.0.11 [12, 13, 14]		pass: foobar
@@ -30,7 +31,7 @@ dtnperf tool:
 													[bisogna indicare l'address del server tipo ipn:10.3 dinamicamente definito nel server al lancio per usare cgr]
 													#-D100K is the total size of the data
 													#-P50 is the size of a single payload sent
-													#-P1b speed of bundle transmission (here 1 bundle per second)
+													#-R1b speed of bundle transmission (here 1 bundle per second)
 
 check active dtnme demon
 	ps -ax | grep dtnme
@@ -52,4 +53,9 @@ Posso decidere di forzare un nuovo eid anche per il client invocandolo con:
 
 Link al documento dell'IEEE: https://ieeexplore.ieee.org/document/4530739
 
+ToDo prep esame lab
+- [ ] Testare la parte di Unibo-cgr
+- [ ] Wireshark analisi file
+- [ ] giocare un po' con i parametri per i bundle (link blocked)
+- [ ] riprovare un link diretto vm1 to vm3
 
