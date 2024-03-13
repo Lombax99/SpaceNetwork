@@ -54,13 +54,13 @@ Posso decidere di forzare un nuovo eid anche per il client invocandolo con:
 Link al documento dell'IEEE: https://ieeexplore.ieee.org/document/4530739
 
 ToDo prep esame lab
-- [x] Far partire le macchine
-- [x] Attivare il demone dtnme
-- [x] comandi in telnet (link/route dump, creare/modificare i link e le route, vedere info sui bundle in transito)
-- [x] lanciare bundle (client, server e monitor)
+- Far partire le macchine
+- Attivare il demone dtnme
+- comandi in telnet (link/route dump, creare/modificare i link e le route, vedere info sui bundle in transito)
+- lanciare bundle (client, server e monitor)
 
-- [ ] Testare la parte di Unibo-cgr
-- [ ] Wireshark analisi file
-- [ ] giocare un po' con i parametri per i bundle (link blocked)
-- [ ] riprovare un link diretto vm1 to vm3
+- Testare la parte di Unibo-cgr (non dovrebbe chiedderlo)
+- Wireshark analisi file (non dovrebbe chiederlo)
+- giocare un po' con i parametri per i bundle (link blocked)
+- riprovare un link diretto vm1 to vm3 (l'ha chiesto ad un esame)
 
