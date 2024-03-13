@@ -51,7 +51,7 @@ Posso decidere di forzare un nuovo eid anche per il client invocandolo con:
 	dtnperf_vDTN_vBLABLA... --client -d ipn:2.2000 -D100k -P50k -R1b --force-eid IPN --ipn-local 1
 ```
 
-Link al documento dell'IEEE: https://ieeexplore.ieee.org/document/4530739
+Link al documento dell'IEEE: https://ieeexplore.ieee.org/document/4530739 (ne ha parlato una volta non importa saperlo)
 
 ToDo prep esame lab
 - Far partire le macchine
