@@ -11,7 +11,7 @@ la repository è un vault obsidian, per utilizzarla:
 
 - [aggiungere il vault su obsidian](https://help.obsidian.md/Files+and+folders/Manage+vaults#Create+vault+from+an+existing+folder)
 
-è possibile visualizzarla anche senza obsidian in quanto sono file di testo in markdown anche se non lo consiglio
+è possibile visualizzarla anche senza obsidian in quanto sono file di testo in markdown o file in pdf anche se non lo consiglio
 
 ### Theoria
 - [[RiassuntoTeoriaCompleto.pdf]]
